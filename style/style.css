@@ -53,8 +53,12 @@ body {
 .header-meta .navbar .right-menu .icons-menu li a i:hover {
   color: rgb(141, 253, 27);
 }
-.header-meta .navbar .right-menu .menu-mobile {
+.header-meta .navbar .menu-mobile {
   color: #fff;
+  display: none;
+}
+
+.menu-bar {
   display: none;
 }
 
@@ -64,6 +68,14 @@ a {
 
 li {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.menu-bar.active {
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
@@ -88,6 +100,9 @@ li {
     text-decoration: none;
     color: #fff;
   }
+  .header-meta .navbar .menu-left img {
+    width: 100px;
+  }
   .header-meta .navbar .right-menu .icons-menu {
     display: flex;
     align-items: center;
@@ -107,7 +122,7 @@ li {
   .header-meta .navbar .right-menu .icons-menu li a i:hover {
     color: rgb(141, 253, 27);
   }
-  .header-meta .navbar .right-menu .menu-mobile {
+  .header-meta .navbar .menu-mobile {
     color: #fff;
     display: block;
     font-size: 1.5rem;

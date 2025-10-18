@@ -39,12 +39,15 @@
           }
         }
       }
-      .menu-mobile {
-        color: $website-white-color;
-        display: none;
-      }
+    }
+    .menu-mobile {
+      color: $website-white-color;
+      display: none;
     }
   }
+}
+.menu-bar {
+  display: none;
 }
 
 a {
@@ -53,6 +56,14 @@ a {
 
 li {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.menu-bar.active {
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
@@ -73,6 +84,9 @@ li {
             text-decoration: none;
             color: $website-white-color;
           }
+        }
+        img{
+            width: 100px;
         }
       }
       .right-menu {
@@ -98,11 +112,11 @@ li {
             }
           }
         }
-        .menu-mobile {
-          color: $website-white-color;
-          display: block;
-          font-size: $website-text-size4;
-        }
+      }
+      .menu-mobile {
+        color: $website-white-color;
+        display: block;
+        font-size: $website-text-size4;
       }
     }
   }
