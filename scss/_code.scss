@@ -87,39 +87,39 @@ button {
   }
 }
 
-.main{
-   .meta-record-label{
+.main {
+  .meta-record-label {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .meta-text{
-        color: $website-white-color;
-        h2{
-            font-size: $website-text-size7;
-            font-weight: 500;
-            margin-bottom: $website-text-size4;
+    .meta-text {
+      color: $website-white-color;
+      h2 {
+        font-size: $website-text-size7;
+        font-weight: 500;
+        margin-bottom: $website-text-size4;
+      }
+      p {
+        font-size: 14px;
+        width: 350px;
+        margin-bottom: $website-text-size10;
+      }
+      button {
+        padding: 14px 40px;
+        font-size: 17px;
+        border-radius: 7px;
+        border: 1px solid $website-black-color;
+        background-color: $website-greenyellow-color;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: $website-black-color;
+          color: $website-greenyellow-color;
+          border: 1px solid $website-greenyellow-color;
         }
-        p{
-            font-size: 14px;
-            width: 350px;
-            margin-bottom: $website-text-size10;
-        }
-        button{
-            padding: 14px 40px;
-            font-size: 17px;
-            border-radius: 7px;
-            border: 1px solid $website-black-color;
-            background-color: $website-greenyellow-color;
-
-        }
+      }
     }
-   }
+  }
 }
-
-
-
-
-
 
 // @media (max-width: 600px) {
 //   .header-meta {

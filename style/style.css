@@ -111,6 +111,12 @@ button {
   border-radius: 7px;
   border: 1px solid #000;
   background-color: rgb(141, 253, 27);
+  transition: all 0.3s ease-in-out;
+}
+.main .meta-record-label .meta-text button:hover {
+  background-color: #000;
+  color: rgb(141, 253, 27);
+  border: 1px solid rgb(141, 253, 27);
 }
 
 /*# sourceMappingURL=style.css.map */
