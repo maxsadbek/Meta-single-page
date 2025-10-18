@@ -119,6 +119,58 @@ button {
       }
     }
   }
+  .Nft {
+    display: flex;
+    justify-content: space-between;
+    .nft-box-left {
+      width: 42%;
+      h2 {
+        font-size: $website-text-size7;
+        color: $website-white-color;
+        margin-bottom: 10px;
+      }
+      img {
+        margin-top: $website-text-size3;
+      }
+    }
+    .nft-box-right {
+      width: 50%;
+      .nft-box-text {
+        color: $website-greenyellow-color;
+        padding: 15px;
+        border-left: 2px solid $website-greenyellow-color;
+        h3 {
+          font-size: 1.4rem;
+          font-weight: 500;
+          width: 90%;
+          line-height: 1.5;
+        }
+      }
+      p {
+        margin-top: $website-text-size4;
+        color: $website-white-color;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      button {
+        margin-top: $website-text-size9;
+        padding: 10px 22px;
+        padding-bottom: 14px;
+        font-size: 17px;
+        border: 1px solid $website-greenyellow-color;
+        color: $website-white-color;
+        background-color: transparent;
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        border-radius: 8px;
+        &:hover {
+          background-color: $website-greenyellow-color;
+          color: $website-black-color;
+          border: 1px solid $website-greenyellow-color;
+        }
+      }
+    }
+  }
 }
 
 // @media (max-width: 600px) {

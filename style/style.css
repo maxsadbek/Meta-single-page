@@ -118,5 +118,57 @@ button {
   color: rgb(141, 253, 27);
   border: 1px solid rgb(141, 253, 27);
 }
+.main .Nft {
+  display: flex;
+  justify-content: space-between;
+}
+.main .Nft .nft-box-left {
+  width: 42%;
+}
+.main .Nft .nft-box-left h2 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.main .Nft .nft-box-left img {
+  margin-top: 1.2rem;
+}
+.main .Nft .nft-box-right {
+  width: 50%;
+}
+.main .Nft .nft-box-right .nft-box-text {
+  color: rgb(141, 253, 27);
+  padding: 15px;
+  border-left: 2px solid rgb(141, 253, 27);
+}
+.main .Nft .nft-box-right .nft-box-text h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 90%;
+  line-height: 1.5;
+}
+.main .Nft .nft-box-right p {
+  margin-top: 1.5rem;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.main .Nft .nft-box-right button {
+  margin-top: 5rem;
+  padding: 10px 22px;
+  padding-bottom: 14px;
+  font-size: 17px;
+  border: 1px solid rgb(141, 253, 27);
+  color: #fff;
+  background-color: transparent;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.main .Nft .nft-box-right button:hover {
+  background-color: rgb(141, 253, 27);
+  color: #000;
+  border: 1px solid rgb(141, 253, 27);
+}
 
 /*# sourceMappingURL=style.css.map */
