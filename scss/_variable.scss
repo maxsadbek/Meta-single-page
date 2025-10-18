@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 // color
 $website-black-color:#000;
 $website-greenyellow-color: rgb(141,253,27);
@@ -21,4 +23,5 @@ $website-text-size13:9rem;
 $website-text-size14:10rem;
 
 // Font-famely
-$website-font-audiowide:;
+$website-font-audiowide: "Audiowide", sans-serif;
+$website-font-roboto: "Roboto", sans-serif;
