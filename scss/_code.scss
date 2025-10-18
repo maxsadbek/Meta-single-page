@@ -1,0 +1,109 @@
+@use "./variable" as *;
+.header-meta {
+  padding: $website-text-size5 40px;
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .menu-left {
+      display: flex;
+      align-items: center;
+      gap: $website-text-size5;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: $website-white-color;
+        }
+      }
+    }
+    .right-menu {
+      .icons-menu {
+        display: flex;
+        align-items: center;
+        gap: $website-text-size3;
+        font-size: $website-text-size4;
+        li {
+          a {
+            i {
+              padding: 7px;
+              background-color: $website-white-color;
+              color: $website-black-color;
+              border-radius: 5px;
+              transition: color 0.3s ease-in-out;
+
+              &:hover {
+                color: $website-greenyellow-color;
+              }
+            }
+          }
+        }
+      }
+      .menu-mobile {
+        color: $website-white-color;
+        display: none;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header-meta {
+    padding: $website-text-size5 20px;
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .menu-left {
+        display: flex;
+        align-items: center;
+        gap: $website-text-size5;
+        li {
+          list-style: none;
+          display: none;
+          a {
+            text-decoration: none;
+            color: $website-white-color;
+          }
+        }
+      }
+      .right-menu {
+        .icons-menu {
+          display: flex;
+          align-items: center;
+          gap: $website-text-size3;
+          font-size: $website-text-size4;
+          li {
+            display: none;
+            a {
+              i {
+                padding: 7px;
+                background-color: $website-white-color;
+                color: $website-black-color;
+                border-radius: 5px;
+                transition: color 0.3s ease-in-out;
+
+                &:hover {
+                  color: $website-greenyellow-color;
+                }
+              }
+            }
+          }
+        }
+        .menu-mobile {
+          color: $website-white-color;
+          display: block;
+          font-size: $website-text-size4;
+        }
+      }
+    }
+  }
+}

@@ -8,12 +8,110 @@
 
 body {
   background-color: #000;
+  font-family: "Audiowide", sans-serif;
 }
 
 .container {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+}
+
+.header-meta {
+  padding: 2rem 40px;
+}
+.header-meta .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-meta .navbar .menu-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.header-meta .navbar .menu-left li {
+  list-style: none;
+}
+.header-meta .navbar .menu-left li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-meta .navbar .right-menu .icons-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+}
+.header-meta .navbar .right-menu .icons-menu li a i {
+  padding: 7px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  transition: color 0.3s ease-in-out;
+}
+.header-meta .navbar .right-menu .icons-menu li a i:hover {
+  color: rgb(141, 253, 27);
+}
+.header-meta .navbar .right-menu .menu-mobile {
+  color: #fff;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header-meta {
+    padding: 2rem 20px;
+  }
+  .header-meta .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-meta .navbar .menu-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .header-meta .navbar .menu-left li {
+    list-style: none;
+    display: none;
+  }
+  .header-meta .navbar .menu-left li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .header-meta .navbar .right-menu .icons-menu {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .header-meta .navbar .right-menu .icons-menu li {
+    display: none;
+  }
+  .header-meta .navbar .right-menu .icons-menu li a i {
+    padding: 7px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out;
+  }
+  .header-meta .navbar .right-menu .icons-menu li a i:hover {
+    color: rgb(141, 253, 27);
+  }
+  .header-meta .navbar .right-menu .menu-mobile {
+    color: #fff;
+    display: block;
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
