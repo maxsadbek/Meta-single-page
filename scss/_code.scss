@@ -1,28 +1,45 @@
 @use "./variable" as *;
+
 .header-meta {
   padding: $website-text-size5 40px;
+
   .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     .menu-left {
       display: flex;
       align-items: center;
       gap: $website-text-size5;
+
+      img {
+        width: 120px;
+      }
+
       li {
         list-style: none;
+
         a {
           text-decoration: none;
           color: $website-white-color;
+          font-size: $website-text-size4;
+          transition: color 0.3s ease-in-out;
+
+          &:hover {
+            color: $website-greenyellow-color;
+          }
         }
       }
     }
+
     .right-menu {
       .icons-menu {
         display: flex;
         align-items: center;
         gap: $website-text-size3;
         font-size: $website-text-size4;
+
         li {
           a {
             i {
@@ -40,14 +57,14 @@
         }
       }
     }
+
     .menu-mobile {
       color: $website-white-color;
       display: none;
+      font-size: $website-text-size4;
+      cursor: pointer;
     }
   }
-}
-.menu-bar {
-  display: none;
 }
 
 a {
@@ -62,62 +79,113 @@ button {
   cursor: pointer;
 }
 
-.menu-bar.active {
-  display: block;
-}
+.menu-bar {
+  display: none;
 
-@media screen and (max-width: 600px) {
-  .header-meta {
-    padding: $website-text-size5 20px;
-    .navbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      .menu-left {
-        display: flex;
-        align-items: center;
-        gap: $website-text-size5;
-        li {
-          list-style: none;
-          display: none;
-          a {
-            text-decoration: none;
-            color: $website-white-color;
-          }
-        }
-        img{
-            width: 100px;
-        }
-      }
-      .right-menu {
-        .icons-menu {
-          display: flex;
-          align-items: center;
-          gap: $website-text-size3;
-          font-size: $website-text-size4;
-          li {
-            display: none;
-            a {
-              i {
-                padding: 7px;
-                background-color: $website-white-color;
-                color: $website-black-color;
-                border-radius: 5px;
-                transition: color 0.3s ease-in-out;
-
-                &:hover {
-                  color: $website-greenyellow-color;
-                }
-              }
-            }
-          }
-        }
-      }
-      .menu-mobile {
-        color: $website-white-color;
-        display: block;
-        font-size: $website-text-size4;
-      }
-    }
+  &.active {
+    display: block;
   }
 }
+
+.main{
+   .meta-record-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .meta-text{
+        color: $website-white-color;
+        h2{
+            font-size: $website-text-size7;
+            font-weight: 500;
+            margin-bottom: $website-text-size4;
+        }
+        p{
+            font-size: 14px;
+            width: 350px;
+            margin-bottom: $website-text-size10;
+        }
+        button{
+            padding: 14px 40px;
+            font-size: 17px;
+            border-radius: 7px;
+            border: 1px solid $website-black-color;
+            background-color: $website-greenyellow-color;
+
+        }
+    }
+   }
+}
+
+
+
+
+
+
+// @media (max-width: 600px) {
+//   .header-meta {
+//     padding: $website-text-size5 40px;
+
+//     .navbar {
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-between;
+
+//       .menu-left {
+//         display: flex;
+//         align-items: center;
+//         gap: $website-text-size5;
+
+//         img {
+//           width: 120px;
+//         }
+
+//         li {
+//           list-style: none;
+
+//           a {
+//             text-decoration: none;
+//             color: $website-white-color;
+//             font-size: $website-text-size4;
+//             transition: color 0.3s ease-in-out;
+
+//             &:hover {
+//               color: $website-greenyellow-color;
+//             }
+//           }
+//         }
+//       }
+
+//       .right-menu {
+//         .icons-menu {
+//           display: flex;
+//           align-items: center;
+//           gap: $website-text-size3;
+//           font-size: $website-text-size4;
+
+//           li {
+//             a {
+//               i {
+//                 padding: 7px;
+//                 background-color: $website-white-color;
+//                 color: $website-black-color;
+//                 border-radius: 5px;
+//                 transition: color 0.3s ease-in-out;
+
+//                 &:hover {
+//                   color: $website-greenyellow-color;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+
+//       .menu-mobile {
+//         color: $website-white-color;
+//         display: none;
+//         font-size: $website-text-size4;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+// }
