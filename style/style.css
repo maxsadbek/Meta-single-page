@@ -170,5 +170,9 @@ button {
   color: #000;
   border: 1px solid rgb(141, 253, 27);
 }
+.main .img img {
+  width: 100%;
+  margin-top: 3.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */
