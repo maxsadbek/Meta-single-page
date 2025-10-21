@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
   font-family: "Audiowide", sans-serif;
@@ -192,6 +196,7 @@ button {
 .main .story-parent {
   color: #fff;
   margin-top: 10rem;
+  margin-bottom: 4rem;
 }
 .main .story-parent .story-name {
   margin-bottom: 3rem;
