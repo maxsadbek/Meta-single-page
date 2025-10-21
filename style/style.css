@@ -174,5 +174,15 @@ button {
   width: 100%;
   margin-top: 3.5rem;
 }
+.main .img-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 1.5rem;
+}
+.main .img-card .card {
+  text-align: center;
+  color: #fff;
+}
 
 /*# sourceMappingURL=style.css.map */

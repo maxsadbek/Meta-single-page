@@ -171,9 +171,21 @@ button {
       }
     }
   }
-  .img img{
+  .img img {
     width: 100%;
     margin-top: $website-text-size7;
+  }
+
+  .img-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: $website-text-size4;
+    .card {
+      text-align: center;
+      color: $website-white-color;
+
+    }
   }
 }
 
