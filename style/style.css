@@ -252,5 +252,18 @@ button {
   font-size: 16px;
   line-height: 1.7;
 }
+.main .Roadmap {
+  text-align: center;
+}
+.main .Roadmap .Roadmap-img {
+  margin-top: -6rem;
+  position: absolute;
+}
+.main .Roadmap h2 {
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=style.css.map */
