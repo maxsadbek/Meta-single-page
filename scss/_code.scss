@@ -276,6 +276,7 @@ button {
 
     .Roadmap-card-parent{
       border: 2px solid $website-greenyellow-color;
+      width: 500px;
       .Roadmap-text{
         color: $website-white-color;
       }
@@ -285,6 +286,19 @@ button {
         background-color: #222;
         padding: 10px;
         text-align: start;
+        .Roadmap-text{
+          padding-left: 20px;
+          p{
+            font-size: 12px;
+            margin-top: 10px;
+          }
+        }
+        .p-roadmap{
+          font-size: 12px;
+          color: $website-white-color;
+          margin-top: 1rem;
+          line-height: 1.6;
+        }
       }
     }
     .Roadmap-card{
