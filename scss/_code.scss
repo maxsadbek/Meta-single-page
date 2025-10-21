@@ -186,8 +186,69 @@ button {
     .card {
       text-align: center;
       color: $website-white-color;
-      p{
+      p {
         margin-top: 10px;
+      }
+    }
+  }
+  .story-parent {
+    color: $website-white-color;
+    margin-top: $website-text-size14;
+    .story-name {
+      margin-bottom: $website-text-size6;
+      text-align: center;
+      h2{
+        font-size: $website-text-size6;
+        margin-right: 8rem;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+    }
+    .story {
+      display: flex;
+      width: 85%;
+      .story-text {
+        color: $website-white-color;
+        width: 70%;
+        p{
+          cursor: pointer;
+          padding: 20px;
+          margin-bottom: 16px;
+        }
+        #foundders{
+          background-color: #222;
+          color: $website-greenyellow-color;
+        }
+      }
+      .story-div{
+        display: flex;
+        gap: 2rem;
+        background-color: #222;
+        padding: 2.5rem 4rem;
+
+        img{
+          height: 330px;
+          width: 200px;
+          object-fit: cover;
+        }
+        .story-div-text{
+          >div{
+            color: $website-greenyellow-color;
+            border-left: 2px solid $website-greenyellow-color;
+            padding-left: 15px;
+            h3{
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: $website-text-size4;
+            line-height: 1.5;
+          }
+          }
+          p{
+            margin-top: 1.8rem;
+            font-size: 16px;
+            line-height: 1.7;
+          }
+        }
       }
     }
   }

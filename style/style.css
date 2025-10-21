@@ -189,5 +189,63 @@ button {
 .main .img-card .card p {
   margin-top: 10px;
 }
+.main .story-parent {
+  color: #fff;
+  margin-top: 10rem;
+}
+.main .story-parent .story-name {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.main .story-parent .story-name h2 {
+  font-size: 3rem;
+  margin-right: 8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.main .story-parent .story {
+  display: flex;
+  width: 85%;
+}
+.main .story-parent .story .story-text {
+  color: #fff;
+  width: 70%;
+}
+.main .story-parent .story .story-text p {
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.main .story-parent .story .story-text #foundders {
+  background-color: #222;
+  color: rgb(141, 253, 27);
+}
+.main .story-parent .story .story-div {
+  display: flex;
+  gap: 2rem;
+  background-color: #222;
+  padding: 2.5rem 4rem;
+}
+.main .story-parent .story .story-div img {
+  height: 330px;
+  width: 200px;
+  object-fit: cover;
+}
+.main .story-parent .story .story-div .story-div-text > div {
+  color: rgb(141, 253, 27);
+  border-left: 2px solid rgb(141, 253, 27);
+  padding-left: 15px;
+}
+.main .story-parent .story .story-div .story-div-text > div h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+.main .story-parent .story .story-div .story-div-text p {
+  margin-top: 1.8rem;
+  font-size: 16px;
+  line-height: 1.7;
+}
 
 /*# sourceMappingURL=style.css.map */
