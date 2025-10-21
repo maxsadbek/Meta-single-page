@@ -175,14 +175,19 @@ button {
   margin-top: 3.5rem;
 }
 .main .img-card {
+  margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  gap: 1.5rem;
+  gap: 4rem;
+  row-gap: 5rem;
 }
 .main .img-card .card {
   text-align: center;
   color: #fff;
+}
+.main .img-card .card p {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

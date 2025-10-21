@@ -177,14 +177,18 @@ button {
   }
 
   .img-card {
+    margin-top: $website-text-size8;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    gap: $website-text-size4;
+    gap: $website-text-size8;
+    row-gap: $website-text-size9;
     .card {
       text-align: center;
       color: $website-white-color;
-
+      p{
+        margin-top: 10px;
+      }
     }
   }
 }
