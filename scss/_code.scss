@@ -353,6 +353,19 @@ button {
       }
     }
   }
+  .logoholder-text{
+    text-align: center;
+    p{
+      margin-top: $website-text-size14;
+      color: $website-greenyellow-color;
+      font-size: 12px;
+      margin-bottom: $website-text-size7;
+    }
+    img{
+      margin-left: -15rem;
+      margin-bottom: 3rem;
+    }
+  }
 }
 
 // @media (max-width: 600px) {

@@ -348,5 +348,18 @@ button {
   background-color: rgb(141, 253, 27);
   font-size: 1.2rem;
 }
+.main .logoholder-text {
+  text-align: center;
+}
+.main .logoholder-text p {
+  margin-top: 10rem;
+  color: rgb(141, 253, 27);
+  font-size: 12px;
+  margin-bottom: 3.5rem;
+}
+.main .logoholder-text img {
+  margin-left: -15rem;
+  margin-bottom: 3rem;
+}
 
 /*# sourceMappingURL=style.css.map */
