@@ -266,6 +266,19 @@ button {
       left: 0;
       z-index: -1;
     }
+    .Roadmap-img2 {
+      margin-top: 25rem;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
+    .Roadmap-img3 {
+      margin-top: 15rem;
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      bottom: -15rem;
+    }
     h2 {
       margin-top: 3rem;
       color: $website-white-color;
@@ -274,27 +287,27 @@ button {
       text-transform: uppercase;
     }
 
-    .Roadmap-card-parent{
+    .Roadmap-card-parent {
       border: 2px solid $website-greenyellow-color;
       width: 500px;
       margin-top: $website-text-size12;
-      .Roadmap-text{
+      .Roadmap-text {
         color: $website-white-color;
       }
-      .Roadmap-mini-card{
+      .Roadmap-mini-card {
         display: flex;
         justify-content: space-between;
         background-color: #222;
         padding: 10px;
         text-align: start;
-        .Roadmap-text{
+        .Roadmap-text {
           padding-left: 20px;
-          p{
+          p {
             font-size: 12px;
             margin-top: 10px;
           }
         }
-        .p-roadmap{
+        .p-roadmap {
           font-size: 12px;
           color: $website-white-color;
           margin-top: 1rem;
@@ -303,7 +316,7 @@ button {
         }
       }
     }
-    .Roadmap-card{
+    .Roadmap-card {
       border: 2px solid $website-greenyellow-color;
       width: 100%;
       z-index: 1111;
@@ -313,24 +326,24 @@ button {
       padding: 10px;
       gap: 10px;
       background-color: #222;
-      .Roadmap-card-mini{
+      .Roadmap-card-mini {
         display: flex;
         flex-direction: column;
         justify-content: start;
         text-align: start;
-        p{
+        p {
           font-size: 10px;
           font-weight: 400;
           color: $website-greenyellow-color;
         }
-        h3{
+        h3 {
           margin-top: 10px;
           font-weight: 400;
           font-size: 16px;
         }
       }
-      .Roadmap-card-number{
-        p{
+      .Roadmap-card-number {
+        p {
           color: #000;
           padding: 12px 20px;
           object-fit: cover;

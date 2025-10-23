@@ -265,6 +265,19 @@ button {
   left: 0;
   z-index: -1;
 }
+.main .Roadmap .Roadmap-img2 {
+  margin-top: 25rem;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.main .Roadmap .Roadmap-img3 {
+  margin-top: 15rem;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  bottom: -15rem;
+}
 .main .Roadmap h2 {
   margin-top: 3rem;
   color: #fff;
