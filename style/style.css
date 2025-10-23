@@ -275,6 +275,7 @@ button {
 .main .Roadmap .Roadmap-card-parent {
   border: 2px solid rgb(141, 253, 27);
   width: 500px;
+  margin-top: 8rem;
 }
 .main .Roadmap .Roadmap-card-parent .Roadmap-text {
   color: #fff;
@@ -298,6 +299,7 @@ button {
   color: #fff;
   margin-top: 1rem;
   line-height: 1.6;
+  margin-bottom: 1rem;
 }
 .main .Roadmap .Roadmap-card {
   border: 2px solid rgb(141, 253, 27);
