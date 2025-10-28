@@ -498,9 +498,15 @@ button {
 }
 .footer .footer-icon i {
   border-radius: 5px;
-  padding: 7px;
+  padding: 9px;
   font-size: 19px;
   background-color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+.footer .footer-icon i:hover {
+  color: rgb(141, 253, 27);
+  background-color: #ffffff;
+  backdrop-filter: blur(10px);
 }
 
 /*# sourceMappingURL=style.css.map */

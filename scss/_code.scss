@@ -507,9 +507,16 @@ button {
     align-items: center;
     i{
       border-radius: 5px;
-      padding: 7px;
+      padding: 9px;
       font-size: 19px;
       background-color: $website-white-color;
+      transition: color .2s ease-in-out;
+
+      &:hover{
+        color: $website-greenyellow-color;
+        background-color: #ffffff;
+        backdrop-filter: blur(10px);
+      }
     }
   }
 }
