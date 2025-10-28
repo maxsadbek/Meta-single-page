@@ -407,7 +407,40 @@ button {
     }
   }
   .user{
-    
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    .user-card{
+      text-align: center;
+      h3{
+        color: $website-white-color;
+        margin-top: $website-text-size4;
+      }
+      p{
+        color: $website-greenyellow-color;
+        font-size: 12px;
+        margin-top: $website-text-size2;
+      }
+      >div{
+        display: flex;
+        gap: 1rem;
+        font-size: $website-text-size3;
+        text-align: center;
+        margin-left: 11rem;
+        margin-top: $website-text-size3;
+        i{
+          padding: 7px;
+          background-color: $website-white-color;
+        }
+      }
+      h4{
+        color: #f4f4f4;
+        font-size: 14px;
+        margin-top: 1rem;
+      }
+    }
   }
 }
 

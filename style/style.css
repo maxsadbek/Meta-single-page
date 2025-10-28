@@ -399,5 +399,41 @@ button {
   font-weight: 400;
   color: rgba(187, 204, 187, 0.8);
 }
+.main .user {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.main .user .user-card {
+  text-align: center;
+}
+.main .user .user-card h3 {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.main .user .user-card p {
+  color: rgb(141, 253, 27);
+  font-size: 12px;
+  margin-top: 0.8rem;
+}
+.main .user .user-card > div {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 11rem;
+  margin-top: 1.2rem;
+}
+.main .user .user-card > div i {
+  padding: 7px;
+  background-color: #fff;
+}
+.main .user .user-card h4 {
+  color: #f4f4f4;
+  font-size: 14px;
+  margin-top: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
