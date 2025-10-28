@@ -470,4 +470,37 @@ button {
   color: rgb(141, 253, 27);
 }
 
+.footer {
+  background-color: rgb(66, 0, 106);
+  padding: 2rem;
+  padding-top: 4rem;
+}
+.footer .footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footer-text .footer-p {
+  margin-top: 2rem;
+}
+.footer .footer-text p {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.footer .footer-text h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.footer .footer-icon {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.footer .footer-icon i {
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 19px;
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -479,6 +479,41 @@ button {
   }
 }
 
+.footer{
+  background-color: $website-blueviolet-color;
+  padding: 2rem;
+  padding-top: 4rem;
+  .footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-text{
+    .footer-p{
+      margin-top: $website-text-size5;
+    }
+    p{
+      color: $website-white-color;
+      margin-bottom: 2rem;
+    }
+    h3{
+      color: $website-white-color;
+      margin-bottom: 1rem;
+    }
+  }
+  .footer-icon{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    i{
+      border-radius: 5px;
+      padding: 7px;
+      font-size: 19px;
+      background-color: $website-white-color;
+    }
+  }
+}
+
 // @media (max-width: 600px) {
 //   .header-meta {
 //     padding: $website-text-size5 40px;
