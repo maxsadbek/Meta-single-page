@@ -435,5 +435,39 @@ button {
   font-size: 14px;
   margin-top: 1rem;
 }
+.main .JoinOur {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main .JoinOur > div {
+  padding: 4rem;
+}
+.main .JoinOur > div h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.main .JoinOur > div p {
+  margin-bottom: 4cqb;
+  color: #fff;
+  width: 56%;
+}
+.main .JoinOur > div .discord {
+  color: rgb(141, 253, 27);
+}
+.main .JoinOur > div button {
+  padding: 10px 30px;
+  font-size: 17px;
+  background-color: rgb(141, 253, 27);
+  border: 1px solid rgb(141, 253, 27);
+  border-radius: 6px;
+  transition: color 0.3s ease-in-out;
+}
+.main .JoinOur > div button:hover {
+  background-color: #000;
+  color: rgb(141, 253, 27);
+}
 
 /*# sourceMappingURL=style.css.map */
